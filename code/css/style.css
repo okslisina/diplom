@@ -37,6 +37,8 @@ margin-bottom: 32px;
 
 .icon1{
     margin-top: 290px;
+    /* margin-top: auto; */
+    /* margin-bottom: 98px; */
 
 }
 .sectionWhite {
@@ -164,13 +166,81 @@ margin-bottom: 32px;
 }
 
 .grid {
-    background-color: gray;
+    background-color: rgb(102, 60, 60);
 }
 
+.rec{
+    position: relative;
+}
+.rectangle{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -44px;
+    margin-left: -43.5px;
+}
+
+.icon{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -11px;
+}
 .section4 {
-    background-color: tomato;
+    background-image: url(../img/BG3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.button2{
+    color: white;
+    font-family: 'Raleway Bold' ;
+    margin-top: 65px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 97px ;
+    letter-spacing: 0.7px;
+    
+}
+
+.btn2{
+    color: white;
+    width: 196px;
+    height: 48px;
+    font-family: 'Raleway Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 2px;
+    border: 4px solid white;
+    background-color: #3b2f5a;
+    
+}
+
+.title3{
+    padding-top: 94px;
+    margin-bottom: 42px;
+    color: #fefeff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
 }
 
 .sectionlast {
-    background-color: green;
+    background-color: #2f274b;
+    
+    
+}
+
+.footer{
+    height: 72px;
+}
+
+
+
+.footerLast{
+    background-color: #2b2344;
+    height: 30px;
 }
