@@ -165,8 +165,56 @@ margin-bottom: 32px;
     background-color:#f7f9fa;
 }
 
-.grid {
-    background-color: rgb(102, 60, 60);
+.wrapper {
+    display: grid;
+    grid-template-columns: 587px 783px;
+    
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 487px 545px;
+}
+
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 661px 371px;
+}
+.box1{
+    background-image: url(../img/BG4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.box2{
+    
+    
+}
+
+.box2 img , .box3 img, .box4 img{
+    width: 100%;
+    height: auto;
+}
+
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.box4{
+    
+}
+
+.box5{
+    background-color: #fafbfc;
+    
 }
 
 .rec{
